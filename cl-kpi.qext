@@ -1,0 +1,9 @@
+{
+	"name" : "Climber KPI",
+	"description" : "KPI Tile",
+	"icon" : "kpi",
+	"type" : "visualization",
+	"version": "1.0.0",
+	"preview" : "climberkpi.png",
+	"author": "Karl Fredberg Sjöstrand"
+}
