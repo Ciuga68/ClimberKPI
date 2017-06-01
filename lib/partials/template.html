@@ -14,7 +14,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
+				<span ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
@@ -22,7 +22,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<span class="textblock__text--{{options.blockSizes.two}}-blocks">{{options.measures.kpi}}</span>
 			</div>
-			<div class="textblock__text--{{options.blockSizes.three}}-blocks"><span>{{options.measures.target}}</span> {{options.labels.target}}</div>
+			<div class="textblock__text--{{options.blockSizes.three}}-blocks"><span>{{options.measures.target}}</span><span ng-if="!options.hideTargetLabel"> {{options.labels.target}}</span></div>
 		</div>
 		<!-- Comparison Focus text layout -->
 		<div ng-if="options.textLayoutMode === 'comparisonFocus'" class="text kpi-container__textwrapper--{{options.layoutMode}} kpi-container__textwrapper--margins-{{options.marginType}}"
@@ -32,7 +32,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
+				<span ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
@@ -43,7 +43,7 @@
 			<div>
 				<div>
 					<div class="textblock__text--{{options.blockSizes.three}}-blocks"><span>{{options.measures.kpi}}</span></div>
-					<div class="textblock__text--{{options.blockSizes.four}}-blocks"><span>{{options.measures.target}}</span> {{options.labels.target}}</div>
+					<div class="textblock__text--{{options.blockSizes.four}}-blocks"><span>{{options.measures.target}}</span> <span ng-if="!options.hideTargetValue"> {{options.labels.target}}</span></div>
 				</div>
 			</div>
 		</div>
@@ -55,7 +55,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
+				<span ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<span class="textblock__text--{{options.blockSizes.two}}-blocks">{{options.measures.kpi}}</span>
@@ -74,7 +74,7 @@
 				 ng-style="{ 'color': options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks  cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color': options.color.icon}"></i>
-				<span class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
+				<span ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks">{{options.labels.kpi}}</span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}" ng-style="{'color' : options.color.icon}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks  cl-icon {{options.icons.icon}}"></i>
@@ -82,7 +82,7 @@
 				<span class="textblock__text--{{options.blockSizes.two}}-blocks">{{options.measures.kpi}}</span>
 			</div>
 			<div class="textblock__block">
-				<div ng-if="options.inTargetMode" class="textblock__text--{{options.blockSizes.three}}-blocks">{{options.labels.target}} <span>{{options.measures.target}}</span> (<span ng-style="{ 'color' : options.color.icon}"><span>{{options.measures.comparison}}</span></span>)</div>
+				<div ng-if="options.inTargetMode" class="textblock__text--{{options.blockSizes.three}}-blocks"><span ng-if="!options.hideTargetValue"> {{options.labels.target}}</span><span>{{options.measures.target}}</span> (<span ng-style="{ 'color' : options.color.icon}"><span>{{options.measures.comparison}}</span></span>)</div>
 			</div>
 		</div>
 	</div>
@@ -90,15 +90,15 @@
 		<div ng-if="options.navigation.mode" class="overlay--{{options.textWeight}}">
 			<div ng-if="options.navigation.mode && options.navigation.showButton" class="overlay__button" ng-style="{'color': options.color.navigation, 'border-color': options.color.navigation}"
 			 ng-click="gotoSheet()">{{options.navigation.text}}</div>
-			<div ng-if="options.navigation.mode && !options.navigation.showButton" class="overlay__navigationtext" ng-style="{'color': options.color.navigation, 'width' : options.size.width, 'height' : options.size.height, 'cursor' : 'pointer'}"
-			 ng-click="gotoSheet()"><span>{{options.navigation.text}}</span></div>
+			<div ng-if="options.navigation.mode && !options.navigation.showButton" class="overlay__navigationtext textblock__block" ng-style="{'color': options.color.navigation, 'width' : options.size.width, 'height' : options.size.height, 'cursor' : 'pointer'}"
+			 ng-click="gotoSheet()"><span class="textblock__text--5-blocks">{{options.navigation.text}}</span></div>
 		</div>
 		<div ng-if="options.showDetails" class="text" ng-style="{'color' : 'white'}">
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIconWithTitle()" class="textblock__icon--3-blocks  cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--3-blocks  cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span class="textblock__text--3-blocks">{{options.labels.kpi}}</span>
+				<span ng-if="!options.hideKpiLabel" class="textblock__text--3-blocks">{{options.labels.kpi}}</span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--5-blocks  cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
@@ -110,7 +110,7 @@
 				<div ng-if="!options.comparisionIsRelative && options.inTargetMode" class="textblock__text--2-blocks">(<span ng-style="{ 'color' : options.color.icon}"><span>{{options.measures.comparison}}</span></span>)</div>
 			</div>
 			<div class="textblock__block">
-				<div class="textblock__text--2-blocks"><span>{{options.measures.target}}</span> {{options.labels.target}}</div>
+				<div class="textblock__text--2-blocks"><span>{{options.measures.target}}</span> <span ng-if="!options.hideTargetValue"> {{options.labels.target}}</span></div>
 			</div>
 		</div>
 	</div>

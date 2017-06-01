@@ -3,4 +3,12 @@ v1.0.0:
   new:
     - Initial Commit
   enhancements:
-  
+v1.1.0:
+  date: "2017-06-01"
+  new:
+    - Colorize data points/bars
+  enhancements:
+    - Larger navigation text
+    - Fixed absolute banding and add explanation text
+    - Hide labels
+    - More icons
