@@ -12,3 +12,9 @@ v1.1.0:
     - Fixed absolute banding and add explanation text
     - Hide labels
     - More icons
+v1.1.1:
+  date: "2017-08-11"
+  new:
+  enhancements:
+    - Fixed bug with colorized bars/line/points 
+    - Fixed bug with negative values in trend chart
