@@ -18,3 +18,9 @@ v1.1.1:
   enhancements:
     - Fixed bug with colorized bars/line/points 
     - Fixed bug with negative values in trend chart
+v1.2.0:
+  date: "2017-08-16"
+  new:
+    -Working export
+  enhancements:
+    
