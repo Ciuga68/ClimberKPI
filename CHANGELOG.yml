@@ -28,3 +28,8 @@ v1.2.1:
   new:
     - Fixed bug with relative and absolute comparison
   enhancements:
+v1.2.2:
+  date: "2017-09-05"
+  new:
+    - Added space between label and target value 
+  enhancements:
