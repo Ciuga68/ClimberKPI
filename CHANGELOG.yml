@@ -23,4 +23,8 @@ v1.2.0:
   new:
     -Working export
   enhancements:
-    
+v1.2.1:
+  date: "2017-09-05"
+  new:
+    - Fixed bug with relative and absolute comparison
+  enhancements:
