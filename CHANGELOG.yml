@@ -33,3 +33,9 @@ v1.2.2:
   new:
     - Added space between label and target value 
   enhancements:
+v1.3:
+  date: "2017-09-05"
+  new:
+    - Change Up/Down Arrow
+    - Equal to comparison is "good" color
+  enhancements:
