@@ -3,7 +3,7 @@
 	"description" : "KPI Tile",
 	"icon" : "kpi",
 	"type" : "visualization",
-	"version": "1.3",
+	"version": "1.4.0",
 	"preview" : "climberkpi.png",
 	"author": "Karl Fredberg Sjöstrand",
 	"dependencies" : { "qlik-sense" : ">=3.2.x" }

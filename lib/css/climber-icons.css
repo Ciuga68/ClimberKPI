@@ -20,6 +20,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 .cl-icon-certificate2:before {
   content: "\e905";
 }
@@ -935,13 +937,13 @@
 .cl-icon-folder-open-o:before {
   content: "\f115";
 }
-.cl-icon-smile-o:before {
+.cl-icon-smile-o-up:before {
   content: "\f118";
 }
-.cl-icon-frown-o:before {
+.cl-icon-frown-o-down:before {
   content: "\f119";
 }
-.cl-icon-meh-o:before {
+.cl-icon-meh-o-right:before {
   content: "\f11a";
 }
 .cl-icon-gamepad:before {
@@ -1073,7 +1075,7 @@
 .cl-icon-ticket:before {
   content: "\f145";
 }
-.cl-icon-minus-square:before {
+.cl-icon-minus-square-right:before {
   content: "\f146";
 }
 .cl-icon-minus-square-o:before {
@@ -1085,7 +1087,7 @@
 .cl-icon-level-down:before {
   content: "\f149";
 }
-.cl-icon-check-square:before {
+.cl-icon-check-square-up:before {
   content: "\f14a";
 }
 .cl-icon-pencil-square:before {
@@ -1291,9 +1293,6 @@
 }
 .cl-icon-gratipay:before {
   content: "\f184";
-}
-.cl-icon-sun-o:before {
-  content: "\f185";
 }
 .cl-icon-moon-o:before {
   content: "\f186";
@@ -2408,7 +2407,7 @@
 .cl-icon-times-rectangle:before {
   content: "\f2d3";
 }
-.cl-icon-window-close:before {
+.cl-icon-window-close-down:before {
   content: "\f2d3";
 }
 .cl-icon-times-rectangle-o:before {
@@ -2450,4 +2449,3 @@
 .cl-icon-meetup:before {
   content: "\f2e0";
 }
-
