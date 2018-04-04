@@ -1,1 +1,1 @@
-define([],function(){"use strict";return{showTitles:!1,showDetails:!1,createdWithVersion:"1.4.1",propertiesVersion:"1.4.1",qHyperCubeDef:{qMeasures:[],qInitialDataFetch:[{qWidth:3,qHeight:3e3}]}}});
+define([],function(){"use strict";return{showTitles:!1,showDetails:!1,createdWithVersion:"1.4.3",propertiesVersion:"1.4.3",qHyperCubeDef:{qMeasures:[],qInitialDataFetch:[{qWidth:3,qHeight:3e3}]}}});
