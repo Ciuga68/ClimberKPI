@@ -14,7 +14,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}}</span>
+				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}} <p ng-if="options.wrapKpiLabel==='wrap'"></p></span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
@@ -32,7 +32,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}" >{{options.labels.kpi}}</span>
+				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}" >{{options.labels.kpi}} <p ng-if="options.wrapKpiLabel==='wrap'"></p></span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
@@ -55,7 +55,7 @@
 				 ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}}</span>
+				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}} <p ng-if="options.wrapKpiLabel==='wrap'"></p></span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<span class="textblock__text--{{options.blockSizes.two}}-blocks">{{options.measures.kpi}}</span>
@@ -74,7 +74,7 @@
 				 ng-style="{ 'color': options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--{{options.blockSizes.one}}-blocks  cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color': options.color.icon}"></i>
-				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}}</span>
+				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--{{options.blockSizes.one}}-blocks textblock__text--{{options.wrapKpiLabel}}">{{options.labels.kpi}} <p ng-if="options.wrapKpiLabel==='wrap'"></p></span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}" ng-style="{'color' : options.color.icon}">
 				<i ng-if="showIcon()" class="textblock__icon--{{options.blockSizes.two}}-blocks  cl-icon {{options.icons.icon}}"></i>
@@ -98,7 +98,7 @@
 				<i ng-if="showIconWithTitle()" class="textblock__icon--3-blocks  cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>
 				<i ng-if="showIconWithTitle() && options.icons.icon2" class="textblock__icon--3-blocks  cl-icon {{options.icons.icon2}}"
 				 ng-style="{ 'color' : options.color.icon}"></i>
-				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--3-blocks textblock__text--{{options.wrapKpiLabel}}" >{{options.labels.kpi}}</span>
+				<span title="{{options.labels.kpi}}" ng-if="!options.hideKpiLabel" class="textblock__text--3-blocks textblock__text--{{options.wrapKpiLabel}}" >{{options.labels.kpi}} <p ng-if="options.wrapKpiLabel==='wrap'"></p></span>
 			</div>
 			<div class="textblock__block textblock--{{options.textWeight}}">
 				<i ng-if="showIcon()" class="textblock__icon--5-blocks  cl-icon {{options.icons.icon}}" ng-style="{ 'color' : options.color.icon}"></i>

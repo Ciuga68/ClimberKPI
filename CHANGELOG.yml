@@ -54,4 +54,19 @@ v1.4.1:
   new:
   enhancements:
     - New preview logo and about panel
+v1.4.2:
+  date: "2018-03-20"
+  new:
+  enhancements:
+    - Fixed bug for select values (action)
+v1.4.3:
+  date: "2018-04-04"
+  new:
+  enhancements:
+    - Export problem solved from QS 201706
+v1.4.4:
+  date: "2018-04-05"
+  new:
+  enhancements:
+    - Removed old code
   
