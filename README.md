@@ -1,7 +1,7 @@
 # Climber KPI
 >The Climber KPI is fully responsive and works for all screen sizes. Features include background trends for both actual and target, navigation and tooltip on hover to show values. It is also possible to include images as background or use the extension just to show images. Colors are completely flexible but have easy standard settings to allow quick and easy creation of nice looking KPIs. For more details take a look at the video found here: https://youtu.be/9zdfYshNel4
 
-**Tested from Qlik Sense June 2017**
+***Tested from Qlik Sense June 2017 (in the initial release of June 2017, extensions load slow. It's fixed in patch 1 )***
 
 ## Purpose and Description
 The Climber KPI extension brings a clear presentation of KPIs including trendlines and navigation from your dashboard to details on other sheets. Getting started is extremely quick when using Master Items.  
