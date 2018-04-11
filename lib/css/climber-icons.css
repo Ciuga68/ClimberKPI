@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'climbericons';
-    src: url('../extensions/cl-kpi/lib/fonts/climbericons.eot?slo2rd');
-    src: url('../extensions/cl-kpi/lib/fonts/climbericons.eot?slo2rd#iefix') format('embedded-opentype'), url('../extensions/cl-kpi/lib/fonts/climbericons.ttf?slo2rd') format('truetype'), url('../extensions/cl-kpi/lib/fonts/climbericons.woff?slo2rd') format('woff'), url('../extensions/cl-kpi/lib/fonts/climbericons.svg?slo2rd#climbericons') format('svg');
+    src: url('..@@fontpath@@cl-kpi/lib/fonts/climbericons.eot?slo2rd');
+    src: url('..@@fontpath@@cl-kpi/lib/fonts/climbericons.eot?slo2rd#iefix') format('embedded-opentype'), url('..@@fontpath@@cl-kpi/lib/fonts/climbericons.ttf?slo2rd') format('truetype'), url('..@@fontpath@@cl-kpi/lib/fonts/climbericons.woff?slo2rd') format('woff'), url('..@@fontpath@@cl-kpi/lib/fonts/climbericons.svg?slo2rd#climbericons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
