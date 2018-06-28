@@ -1,10 +1,10 @@
 {
-	"name" : "Climber KPI",
-	"description" : "KPI Tile",
-	"icon" : "kpi",
-	"type" : "visualization",
-	"version": "1.4.5",
-	"preview" : "climberkpi.jpg",
-	"author": "Karl Fredberg Sjöstrand",
-	"dependencies" : { "qlik-sense" : ">=3.2.x" }
+    "name": "Climber KPI",
+    "description": "KPI Tile",
+    "version": "1.5.0",
+    "license": "Copyright Climber AB",
+    "type": "visualization",
+    "icon": "kpi",
+    "preview": "preview.jpg",
+    "author": "Karl Fredberg Sjöstrand"
 }
