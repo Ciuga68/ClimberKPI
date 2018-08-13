@@ -1,5 +1,5 @@
 # Climber KPI
-<a href="https://github.com/ClimberAB/ClimberKPI/releases/download/v1.5.0/cl-kpi-v1.5.0.zip" target="_blank"><img src="./screenshots/downloadbutton.png?raw=true" 
+<a href="@@publicrepo/releases/download/v1.5.0/cl-kpi-v1.5.0.zip" target="_blank"><img src="../screenshots/downloadbutton.png?raw=true" 
 alt="Download latest release" width="400" height="40" border="0" /></a> 
 >The Climber KPI is fully responsive and works for all screen sizes. Features include background trends for both actual and target, navigation and tooltip on hover to show values. It is also possible to include images as background or use the extension just to show images. Colors are completely flexible but have easy standard settings to allow quick and easy creation of nice looking KPIs. For more details take a look at the video found here: https://youtu.be/9zdfYshNel4
 
@@ -7,27 +7,27 @@ alt="Download latest release" width="400" height="40" border="0" /></a>
 
 ## Purpose and Description
 The Climber KPI extension brings a clear presentation of KPIs including trendlines and navigation from your dashboard to details on other sheets. Getting started is extremely quick when using Master Items.  
-<img src="./screenshots/samplevideo_CreateObject.gif?raw=true" alt="Sample video of object creation" />
+<img src="../screenshots/samplevideo_CreateObject.gif?raw=true" alt="Sample video of object creation" />
 
 The large number of options for the layout including the possibility to use an image background allows a flexible layout. Finetuning of graphs, colors and even margins are possible in the extensive settings menu.  
-<img src="./screenshots/samplevideo_MainLayouts.gif?raw=true" alt="Sample video of the main layout and hover options" />
+<img src="../screenshots/samplevideo_MainLayouts.gif?raw=true" alt="Sample video of the main layout and hover options" />
 
 ## Getting started
 To get started (after installation) add one or two measures. To get the trendline, add a dimension in the Trend section of the extension settings. 
 
 ## Settings and Features
 1. Target Mode - Target mode includes feedback on target fulfillment. This may include both color and icon. The target mode setting is found in the "Target" section of the settings.  
-<img src="./screenshots/screenshot_TargetModeEnabledDisabled.PNG?raw=true" alt="Target Mode Enabled/Disabled" />
+<img src="../screenshots/screenshot_TargetModeEnabledDisabled.png?raw=true" alt="Target Mode Enabled/Disabled" />
 2. Layout Mode - Choose between Fill or Top. Settings are located in Appearance/Layout.   
-<img src="./screenshots/screenshot_FillTopMode.PNG?raw=true" alt="Fill or Top Layout Mode" />
+<img src="../screenshots/screenshot_FillTopMode.png?raw=true" alt="Fill or Top Layout Mode" />
 3. Text Layouts - Choose text layout you like. Or remove the text altogether for just graphs, icons or images. (Works well to use for navigation too!)  
-<img src="./screenshots/screenshot_TextLayoutModes.PNG?raw=true" alt="Text Layout Alternatives" />
+<img src="../screenshots/screenshot_TextLayoutModes.png?raw=true" alt="Text Layout Alternatives" />
 4. Hover modes - Select what you want to show "on mouse over" the object. This is also where you enable navigation mode. The setting is found in Appearance/Hover.  
-<img src="./screenshots/screenshot_HoverModes.PNG?raw=true" alt="Hover mode alternatives" />
+<img src="../screenshots/screenshot_HoverModes.png?raw=true" alt="Hover mode alternatives" />
 5. Color settings - Full control of color settings for both text and trend. You can choose to have quick access to banding for Target color mode (two or three colors) or you can use an expression to set the Target color. The trend color is independent of the target (icon) color and can also be set either to a specific color or an expression.  
-<img src="./screenshots/screenshot_ColorSettings.PNG?raw=true" alt="Color Settings" />
+<img src="../screenshots/screenshot_ColorSettings.png?raw=true" alt="Color Settings" />
 5. When new versions of the extensions are released it is now possible to update (rather than recreate) the object to include any new properties. This will improve the maintainability of the extension between versions.  
-<img src="./screenshots/screenshot_UpdateProperties.PNG?raw=true" alt="Color Settings" />
+<img src="../screenshots/screenshot_UpdateProperties.png?raw=true" alt="Color Settings" />
 
 ## Installation
 
@@ -54,7 +54,7 @@ Like this extension? Check out the other Climber made extensions below.
 
 ## Change Log
 
-See <a href="CHANGELOG.yml"> CHANGELOG </a>
+See <a href="CHANGELOG.md"> CHANGELOG </a>
 
 ## License & Copyright
 The software is made available "AS IS" without any warranty of any kind under the MIT License (MIT).
