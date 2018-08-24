@@ -1,5 +1,10 @@
+# Register for our extensions event on Sept 19th in London!
+Want to know how our extensions can bring unprecedented value to your business? Join the Climber and VizLib Extensions event in London on Sept 19th! A must event for any business professional. Learn about Qlik’s Trusted Extension Developer program and hear from some of our clients how they are utilising our supported extensions to bring unprecedented value to their businesses. <a href="https://goo.gl/vAiBWC">Register here</a>
+
+<a href="https://goo.gl/vAiBWC"><img src="./screenshots/Event_Sep 19_London.jpg?raw=true" alt="Custom Report" /></a>
+
 # Climber KPI
-<a href="https://github.com/ClimberAB/ClimberKPI/releases/download/v1.5.0/cl-kpi-v1.5.0.zip" target="_blank"><img src="./screenshots/downloadbutton.png?raw=true" 
+<a href="https://github.com/ClimberAB/ClimberKPI/releases/download/v1.5.1/cl-kpi-v1.5.1.zip" target="_blank"><img src="./screenshots/downloadbutton.png?raw=true" 
 alt="Download latest release" width="400" height="40" border="0" /></a> 
 >The Climber KPI is fully responsive and works for all screen sizes. Features include background trends for both actual and target, navigation and tooltip on hover to show values. It is also possible to include images as background or use the extension just to show images. Colors are completely flexible but have easy standard settings to allow quick and easy creation of nice looking KPIs. For more details take a look at the video found here: https://youtu.be/9zdfYshNel4
 
